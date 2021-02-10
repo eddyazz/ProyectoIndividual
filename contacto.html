@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styleContacto.css">
+</head>
+<link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+
+<body>
+    <!-- header>nav>a[href=#section$]*3 -->
+    <header>
+        <div class="wrapper">
+        
+            <nav class="mainMenu">
+                <h1>MEDICEN | EDDY</h1>
+                <a href="index.html" >INICIO</a>
+                <a href="biografía.html">BIO</a>
+                <a href="contacto.html"style="color: white">CONTACTO</a>
+            </nav>
+        </div>
+    </header>
+    <div class="margen">
+        <form action="" method="post">
+        
+            <label for="ContactoNombre">Nombre</label>:<br>
+            <input type="text" name="ContactoNombre" id="ContactoNombre"><br>
+            
+            <label for="contactoEmail">Correo:</label><br>
+            <input type="email" name="contactoEmail" id="contactoEmail"><br>
+
+        
+            <label for="contactoPais">País:</label><br>
+            <select name="contactoPais" id="contactoPais">
+            <option value="">-- Seleccione país --</option>
+            <option value="es">España</option>
+            <option value="us">México</option>
+            <option value="jp">Argentina</option>
+            </select><br>
+
+            <label for="ContactoAsunto">Asunto</label>:<br>
+            <input type="text" name="ContactoAsunto" id="ContactoAsunto"><br>
+            <label for="ContactoMensaje:">Mensaje</label>:<br>
+            <textarea name="monsterDescription" id="monsterDescription"></textarea>
+            <br>
+        
+            
+        
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    
+
+    
+    <footer>
+        <div class="wrapper">
+            <small>&copy; Todos los derechos reservados</small>
+        </div>
+    </footer>
+
+</body>
+</html>
